@@ -1,4 +1,6 @@
-﻿using TwitchLib.EventSub.Core.Models.ChannelPoints;
+﻿using System;
+using System.Collections.Generic;
+using TwitchLib.EventSub.Core.Models.ChannelPoints;
 
 namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
 {

@@ -1,4 +1,6 @@
-﻿namespace TwitchLib.EventSub.Core.Models.Subscriptions
+﻿using System;
+
+namespace TwitchLib.EventSub.Core.Models.Subscriptions
 {
     /// <summary>
     /// Defines a subscription message send in chat to share a resubscription

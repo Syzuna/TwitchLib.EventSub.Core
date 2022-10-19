@@ -1,0 +1,22 @@
+name: Check TwitchLib.EventSub.Core PR Build Status
+
+on:
+  pull_request:
+    branches: [ dev, main ]
+
+jobs:
+  check-buildstatus:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 7.0.x
+        dotnet-quality: preview
+    - name: Restore dependencies
+      run: dotnet restore
+    - name: Build TwitchLib.Api
+      run: dotnet build --no-restore

@@ -1,4 +1,6 @@
-﻿namespace TwitchLib.EventSub.Core.Models.ChannelGoals
+﻿using System;
+
+namespace TwitchLib.EventSub.Core.Models.ChannelGoals
 {
     /// <summary>
     /// Channel Goal base class

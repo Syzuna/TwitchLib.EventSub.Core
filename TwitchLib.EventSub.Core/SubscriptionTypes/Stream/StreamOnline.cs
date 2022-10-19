@@ -1,4 +1,6 @@
-﻿namespace TwitchLib.EventSub.Core.SubscriptionTypes.Stream
+﻿using System;
+
+namespace TwitchLib.EventSub.Core.SubscriptionTypes.Stream
 {
     /// <summary>
     /// Stream Online subscription type model

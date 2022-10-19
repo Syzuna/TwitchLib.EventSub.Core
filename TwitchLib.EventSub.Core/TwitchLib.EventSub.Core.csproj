@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-	  <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+	  <TargetFrameworks>net5.0;net6.0;net7.0</TargetFrameworks>
 	  <PackageId>TwitchLib.EventSub.Core</PackageId>
 	  <Title>TwitchLib.EventSub.Core</Title>
 	  <Authors>swiftyspiffy, Prom3theu5, Syzuna, LuckyNoS7evin</Authors>
@@ -11,6 +11,7 @@
 	  <AssemblyVersion>1.0.0</AssemblyVersion>
 	  <FileVersion>1.0.0</FileVersion>
 	  <Description>Contains Subscription Types and Models for Twitch's EventSub system</Description>
+	  <PackageIconUrl>https://cdn.syzuna-programs.de/images/twitchlib.png</PackageIconUrl>
 	  <PackageProjectUrl>https://github.com/TwitchLib/TwitchLib.EventSub.Websockets</PackageProjectUrl>
 	  <RepositoryUrl>https://github.com/TwitchLib/TwitchLib.EventSub.Websockets</RepositoryUrl>
 	  <RepositoryType>Git</RepositoryType>
@@ -18,17 +19,16 @@
 	  <Copyright>Copyright 2022</Copyright>
 	  <PackageTags>twitch library events eventsub subscriptiontypes c# csharp net 6.0 7.0</PackageTags>
 	  <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
 	  <NeutralLanguage>en-US</NeutralLanguage>
-	  <ImplicitUsings>enable</ImplicitUsings>
 	  <Nullable>enable</Nullable>
 	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
 	  <AnalysisLevel>latest-all</AnalysisLevel>
 	  <EnableNETAnalyzers>True</EnableNETAnalyzers>
   </PropertyGroup>
-
+	 
   <ItemGroup>
-    <Folder Include="Models\" />
-    <Folder Include="SubscriptionTypes\" />
+	  <None Include="..\README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
 </Project>

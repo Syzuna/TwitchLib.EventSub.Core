@@ -1,4 +1,6 @@
-﻿namespace TwitchLib.EventSub.Core.Models.HypeTrain
+﻿using System;
+
+namespace TwitchLib.EventSub.Core.Models.HypeTrain
 {
     /// <summary>
     /// HypeTrain base class
