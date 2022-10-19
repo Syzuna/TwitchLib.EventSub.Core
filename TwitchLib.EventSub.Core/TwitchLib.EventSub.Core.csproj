@@ -26,9 +26,4 @@
 	  <EnableNETAnalyzers>True</EnableNETAnalyzers>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Models\" />
-    <Folder Include="SubscriptionTypes\" />
-  </ItemGroup>
-
 </Project>
