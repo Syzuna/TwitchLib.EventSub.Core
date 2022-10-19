@@ -1,4 +1,5 @@
-﻿using TwitchLib.EventSub.Core.Models.Polls;
+﻿using System;
+using TwitchLib.EventSub.Core.Models.Polls;
 
 namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
 {

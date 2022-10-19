@@ -21,7 +21,6 @@
 	  <PackageReleaseNotes>Initial release</PackageReleaseNotes>
 	  <PackageReadmeFile>README.md</PackageReadmeFile>
 	  <NeutralLanguage>en-US</NeutralLanguage>
-	  <ImplicitUsings>enable</ImplicitUsings>
 	  <Nullable>enable</Nullable>
 	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
 	  <AnalysisLevel>latest-all</AnalysisLevel>

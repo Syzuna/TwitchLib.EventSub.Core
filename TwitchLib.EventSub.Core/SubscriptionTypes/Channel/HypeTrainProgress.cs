@@ -1,4 +1,5 @@
-﻿using TwitchLib.EventSub.Core.Models.HypeTrain;
+﻿using System;
+using TwitchLib.EventSub.Core.Models.HypeTrain;
 
 namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
 {

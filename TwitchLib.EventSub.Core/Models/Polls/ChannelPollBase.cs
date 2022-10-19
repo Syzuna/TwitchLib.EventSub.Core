@@ -1,4 +1,6 @@
-﻿namespace TwitchLib.EventSub.Core.Models.Polls
+﻿using System;
+
+namespace TwitchLib.EventSub.Core.Models.Polls
 {
     /// <summary>
     /// Defines the Channel Poll base class

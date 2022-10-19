@@ -1,4 +1,5 @@
-﻿using TwitchLib.EventSub.Core.Models.Predictions;
+﻿using System;
+using TwitchLib.EventSub.Core.Models.Predictions;
 
 namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
 {

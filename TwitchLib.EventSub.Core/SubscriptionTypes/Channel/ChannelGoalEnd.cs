@@ -1,4 +1,5 @@
-﻿using TwitchLib.EventSub.Core.Models.ChannelGoals;
+﻿using System;
+using TwitchLib.EventSub.Core.Models.ChannelGoals;
 
 namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
 {

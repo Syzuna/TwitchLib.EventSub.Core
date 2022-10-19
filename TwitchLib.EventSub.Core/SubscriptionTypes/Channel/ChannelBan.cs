@@ -1,4 +1,6 @@
-﻿namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
+﻿using System;
+
+namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
 {
     /// <summary>
     /// Channel Ban subscription type model

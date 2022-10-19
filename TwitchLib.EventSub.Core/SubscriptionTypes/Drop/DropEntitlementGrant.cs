@@ -1,4 +1,6 @@
-﻿namespace TwitchLib.EventSub.Core.SubscriptionTypes.Drop
+﻿using System;
+
+namespace TwitchLib.EventSub.Core.SubscriptionTypes.Drop
 {
     /// <summary>
     /// Drop Entitlement Grant subscription type model

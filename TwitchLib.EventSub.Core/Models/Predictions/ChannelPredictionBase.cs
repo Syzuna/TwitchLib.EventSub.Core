@@ -1,4 +1,6 @@
-﻿namespace TwitchLib.EventSub.Core.Models.Predictions
+﻿using System;
+
+namespace TwitchLib.EventSub.Core.Models.Predictions
 {
     /// <summary>
     /// Channel Prediction base class
