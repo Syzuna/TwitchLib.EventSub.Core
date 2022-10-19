@@ -19,6 +19,7 @@
 	  <Copyright>Copyright 2022</Copyright>
 	  <PackageTags>twitch library events eventsub subscriptiontypes c# csharp net 6.0 7.0</PackageTags>
 	  <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
 	  <NeutralLanguage>en-US</NeutralLanguage>
 	  <ImplicitUsings>enable</ImplicitUsings>
 	  <Nullable>enable</Nullable>
@@ -26,5 +27,9 @@
 	  <AnalysisLevel>latest-all</AnalysisLevel>
 	  <EnableNETAnalyzers>True</EnableNETAnalyzers>
   </PropertyGroup>
+	 
+  <ItemGroup>
+	  <None Include="..\README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 
 </Project>
