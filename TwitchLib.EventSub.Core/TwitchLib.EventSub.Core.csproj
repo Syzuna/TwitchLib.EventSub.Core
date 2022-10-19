@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-	  <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+	  <TargetFrameworks>net5.0;net6.0;net7.0</TargetFrameworks>
 	  <PackageId>TwitchLib.EventSub.Core</PackageId>
 	  <Title>TwitchLib.EventSub.Core</Title>
 	  <Authors>swiftyspiffy, Prom3theu5, Syzuna, LuckyNoS7evin</Authors>
