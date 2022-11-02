@@ -44,6 +44,6 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Extension
         /// <summary>
         /// Additional extension product information.
         /// </summary>
-        public BitsProduct Product { get; set; } = new();
+        public BitsProduct Product { get; set; } = new BitsProduct();
     }
 }

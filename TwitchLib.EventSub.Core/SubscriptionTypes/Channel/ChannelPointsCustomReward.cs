@@ -72,15 +72,15 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
         /// <summary>
         /// Whether a maximum per stream is enabled and what the maximum is.
         /// </summary>
-        public MaxAmountSettings MaxPerStream { get; set; } = new();
+        public MaxAmountSettings MaxPerStream { get; set; } = new MaxAmountSettings();
         /// <summary>
         /// Whether a maximum per user per stream is enabled and what the maximum is.
         /// </summary>
-        public MaxAmountSettings MaxPerUserPerStream { get; set; } = new();
+        public MaxAmountSettings MaxPerUserPerStream { get; set; } = new MaxAmountSettings();
         /// <summary>
         /// Whether a cooldown is enabled and what the cooldown is in seconds.
         /// </summary>
-        public GlobalCooldownSettings GlobalCooldown { get; set; } = new();
+        public GlobalCooldownSettings GlobalCooldown { get; set; } = new GlobalCooldownSettings();
         /// <summary>
         /// Custom background color for the reward. Format: Hex with # prefix. Example: #FA1ED2.
         /// </summary>
@@ -88,10 +88,10 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
         /// <summary>
         /// Set of custom images of 1x, 2x and 4x sizes for the reward. Can be null if no images have been uploaded.
         /// </summary>
-        public Dictionary<string, string>? Image { get; set; }
+        public Dictionary<string, string> Image { get; set; }
         /// <summary>
         /// Set of default images of 1x, 2x and 4x sizes for the reward.
         /// </summary>
-        public Dictionary<string, string> DefaultImage { get; set; } = new();
+        public Dictionary<string, string> DefaultImage { get; set; } = new Dictionary<string, string>();
     }
 }

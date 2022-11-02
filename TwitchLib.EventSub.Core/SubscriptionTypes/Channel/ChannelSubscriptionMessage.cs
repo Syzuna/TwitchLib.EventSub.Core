@@ -40,7 +40,7 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
         /// <summary>
         /// An object that contains the resubscription message and emote information needed to recreate the message.
         /// </summary>
-        public SubscriptionMessage Message { get; set; } = new();
+        public SubscriptionMessage Message { get; set; } = new SubscriptionMessage();
         /// <summary>
         /// The total number of months the user has been subscribed to the channel.
         /// </summary>

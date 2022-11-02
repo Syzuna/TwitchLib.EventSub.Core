@@ -34,11 +34,11 @@ namespace TwitchLib.EventSub.Core.Models.Polls
         /// <summary>
         /// The Bits voting settings for the poll.
         /// </summary>
-        public PollVotingSettings BitsVoting { get; set; } = new();
+        public PollVotingSettings BitsVoting { get; set; } = new PollVotingSettings();
         /// <summary>
         /// The Channel Points voting settings for the poll.
         /// </summary>
-        public PollVotingSettings ChannelPointsVoting { get; set; } = new();
+        public PollVotingSettings ChannelPointsVoting { get; set; } = new PollVotingSettings();
         /// <summary>
         /// The time the poll started.
         /// </summary>
