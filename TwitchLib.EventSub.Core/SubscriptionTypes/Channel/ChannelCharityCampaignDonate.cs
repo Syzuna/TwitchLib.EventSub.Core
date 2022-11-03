@@ -41,7 +41,7 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
         /// <summary>
         /// An object that contains the amount of the user’s donation.
         /// </summary>
-        public CharityAmount Amount { get; set; } = new();
+        public CharityAmount Amount { get; set; } = new CharityAmount();
 
         /// <summary>
         /// The ISO-4217 three-letter currency code that identifies the type of currency in value.

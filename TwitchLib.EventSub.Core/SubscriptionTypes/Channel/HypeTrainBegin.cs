@@ -22,7 +22,7 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
         /// <summary>
         /// The most recent contribution.
         /// </summary>
-        public HypeTrainContribution LastContribution { get; set; } = new();
+        public HypeTrainContribution LastContribution { get; set; } = new HypeTrainContribution();
         /// <summary>
         /// The time when the Hype Train expires. The expiration is extended when the Hype Train reaches a new level.
         /// </summary>

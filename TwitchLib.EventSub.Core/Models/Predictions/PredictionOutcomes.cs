@@ -1,4 +1,6 @@
-﻿namespace TwitchLib.EventSub.Core.Models.Predictions
+﻿using System;
+
+namespace TwitchLib.EventSub.Core.Models.Predictions
 {
     /// <summary>
     /// Defines the outcomes of a prediction
@@ -28,6 +30,6 @@
         /// <summary>
         /// An array of users who used the most Channel Points on this outcome.
         /// </summary>
-        public Predictor[]? TopPredictors { get; set; }
+        public Predictor[] TopPredictors { get; set; } = Array.Empty<Predictor>();
     }
 }

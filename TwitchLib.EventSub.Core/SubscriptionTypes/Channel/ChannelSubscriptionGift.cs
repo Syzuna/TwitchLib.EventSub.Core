@@ -10,15 +10,15 @@
         /// <summary>
         /// The user ID of the user who sent the subscription gift. Set to null if it was an anonymous subscription gift.
         /// </summary>
-        public string? UserId { get; set; } = string.Empty;
+        public string UserId { get; set; } = string.Empty;
         /// <summary>
         /// The user display name of the user who sent the gift. Set to null if it was an anonymous subscription gift.
         /// </summary>
-        public string? UserName { get; set; } = string.Empty;
+        public string UserName { get; set; } = string.Empty;
         /// <summary>
         /// The user login of the user who sent the gift. Set to null if it was an anonymous subscription gift.
         /// </summary>
-        public string? UserLogin { get; set; } = string.Empty;
+        public string UserLogin { get; set; } = string.Empty;
         /// <summary>
         /// The broadcaster user ID.
         /// </summary>

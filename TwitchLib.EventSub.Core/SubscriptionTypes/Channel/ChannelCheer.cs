@@ -14,15 +14,15 @@
         /// <summary>
         /// The user ID for the user who cheered on the specified channel. This is null if is_anonymous is true.
         /// </summary>
-        public string? UserId { get; set; }
+        public string UserId { get; set; }
         /// <summary>
         /// The user display name for the user who cheered on the specified channel. This is null if is_anonymous is true.
         /// </summary>
-        public string? UserName { get; set; }
+        public string UserName { get; set; }
         /// <summary>
         /// The user login for the user who cheered on the specified channel. This is null if is_anonymous is true.
         /// </summary>
-        public string? UserLogin { get; set; }
+        public string UserLogin { get; set; }
         /// <summary>
         /// The requested broadcaster ID.
         /// </summary>
