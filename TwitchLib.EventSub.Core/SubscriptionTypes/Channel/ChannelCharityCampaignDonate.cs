@@ -30,14 +30,22 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
         /// </summary>
         public string UserId { get; set; } = string.Empty;
         /// <summary>
+        /// The users’s display name.
+        /// </summary>
+        public string UserName { get; set; } = string.Empty;
+        /// <summary>
         /// The users’s login name.
         /// </summary>
         public string UserLogin { get; set; } = string.Empty;
         /// <summary>
-        /// The users’s display name.
+        /// The charity’s name.
         /// </summary>
-        public string UserName { get; set; } = string.Empty;
-
+        public string CharityName { get; set; } = string.Empty;
+        /// <summary>
+        /// A URL to the charity’s logo.
+        /// </summary>
+        public string CharityLogo { get; set; } = string.Empty;
+        
         /// <summary>
         /// An object that contains the amount of the user’s donation.
         /// </summary>
