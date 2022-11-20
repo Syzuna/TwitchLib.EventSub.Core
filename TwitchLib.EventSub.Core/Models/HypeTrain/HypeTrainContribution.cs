@@ -18,7 +18,7 @@
         /// </summary>
         public string UserLogin { get; set; } = string.Empty;
         /// <summary>
-        /// Type of contribution. Valid values include bits, subscription.
+        /// Type of contribution. Valid values include bits, subscription, other.
         /// </summary>
         public string Type { get; set; } = string.Empty;
         /// <summary>

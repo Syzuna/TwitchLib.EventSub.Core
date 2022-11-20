@@ -7,24 +7,12 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
     /// <para>Description:</para>
     /// <para>Sends an event notification when a user donates to the broadcaster’s charity campaign.</para>
     /// </summary>
-    public class ChannelCharityCampaignDonate
+    public class ChannelCharityCampaignDonate : CharityBase
     {
         /// <summary>
         /// An ID that uniquely identifies the charity campaign.
         /// </summary>
         public string CampaignId { get; set; } = string.Empty;
-        /// <summary>
-        /// An ID that uniquely identifies the broadcaster that’s running the campaign.
-        /// </summary>
-        public string BroadcasterId { get; set; } = string.Empty;
-        /// <summary>
-        /// The broadcaster’s login name.
-        /// </summary>
-        public string BroadcasterLogin { get; set; } = string.Empty;
-        /// <summary>
-        /// The broadcaster’s display name.
-        /// </summary>
-        public string BroadcasterName { get; set; } = string.Empty;
         /// <summary>
         /// An ID that uniquely identifies the user that donated to the campaign.
         /// </summary>
@@ -37,15 +25,7 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
         /// The users’s login name.
         /// </summary>
         public string UserLogin { get; set; } = string.Empty;
-        /// <summary>
-        /// The charity’s name.
-        /// </summary>
-        public string CharityName { get; set; } = string.Empty;
-        /// <summary>
-        /// A URL to the charity’s logo.
-        /// </summary>
-        public string CharityLogo { get; set; } = string.Empty;
-        
+
         /// <summary>
         /// An object that contains the amount of the user’s donation.
         /// </summary>
