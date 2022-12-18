@@ -44,7 +44,7 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
         /// <summary>
         /// The total number of months the user has been subscribed to the channel.
         /// </summary>
-        public int CumulativeTotal { get; set; }
+        public int CumulativeMonths { get; set; }
         /// <summary>
         /// The number of consecutive months the user’s current subscription has been active. This value is null if the user has opted out of sharing this information.
         /// </summary>
