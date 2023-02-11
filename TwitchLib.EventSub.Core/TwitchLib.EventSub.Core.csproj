@@ -18,7 +18,7 @@
 	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
 	  <Copyright>Copyright 2023</Copyright>
 	  <PackageTags>twitch library events eventsub subscriptiontypes c# csharp net netstandard2.0 netstandard2.1 5.0 6.0 7.0</PackageTags>
-	  <PackageReleaseNotes>Added channel.shield_mode.begin, channel.shield_mode.end, channel.shoutout.create and channel.shoutout.receive subscription types and models</PackageReleaseNotes>
+	  <PackageReleaseNotes>Added channel.charity_campaign.start, channel.charity_campaign.progress, channel.charity_campaign.stop, channel.shield_mode.begin, channel.shield_mode.end, channel.shoutout.create and channel.shoutout.receive subscription types and models, adjusted hypetrain events xml docs to include "other" as type, fixed channel.subscription.message model</PackageReleaseNotes>
 	  <PackageReadmeFile>README.md</PackageReadmeFile>
 	  <NeutralLanguage>en-US</NeutralLanguage>
 	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
