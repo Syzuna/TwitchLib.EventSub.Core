@@ -28,6 +28,10 @@ namespace TwitchLib.EventSub.Core.Models.Predictions
         /// </summary>
         public string Title { get; set; } = string.Empty;
         /// <summary>
+        /// Winning Outcome ID.
+        /// </summary>
+        public string WinningOutcomeId { get; set; } = string.Empty;
+        /// <summary>
         /// An array of outcomes for the Channel Points Prediction. May include top_predictors.
         /// </summary>
         public PredictionOutcomes[] Outcomes { get; set; } = Array.Empty<PredictionOutcomes>();
