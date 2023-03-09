@@ -11,6 +11,10 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
     public class ChannelPredictionEnd : ChannelPredictionBase
     {
         /// <summary>
+        /// ID of the winning outcome.
+        /// </summary>
+        public string WinningOutcomeId { get; set; } = string.Empty;
+        /// <summary>
         /// The status of the Channel Points Prediction. Valid values are resolved and canceled.
         /// </summary>
         public string Status { get; set; } = string.Empty;
