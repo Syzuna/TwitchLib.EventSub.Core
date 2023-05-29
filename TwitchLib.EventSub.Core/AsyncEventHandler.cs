@@ -1,3 +1,4 @@
+using System;
 using System.Threading.Tasks;
 
 namespace TwitchLib.EventSub.Core
@@ -13,5 +14,5 @@ namespace TwitchLib.EventSub.Core
     /// This is useful to properly and safely handle async Tasks 
     /// Reference: https://medium.com/@a.lyskawa/the-hitchhiker-guide-to-asynchronous-events-in-c-e9840109fb53
     /// </summary>
-    public delegate Task AsyncEventHandler(object sender);
+    public delegate Task AsyncEventHandler(object sender, EventArgs args);
 }
