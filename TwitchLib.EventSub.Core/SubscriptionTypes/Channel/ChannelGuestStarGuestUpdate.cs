@@ -28,5 +28,20 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
         /// </para>
         /// </summary>
         public string State { get; set; } = string.Empty;
+        /// <summary>
+        /// Flag that signals whether the host is allowing the slot’s video to be seen by participants within the session.
+        /// <para>null if the guest is not slotted.</para>
+        /// </summary>
+        public bool? HostVideoEnabled { get; set; }
+        /// <summary>
+        /// Flag that signals whether the host is allowing the slot’s audio to be heard by participants within the session.
+        /// <para>null if the guest is not slotted.</para>
+        /// </summary>
+        public bool? HostAudioEnabled { get; set; }
+        /// <summary>
+        /// Value between 0-100 that represents the slot’s audio level as heard by participants within the session.
+        /// <para>null if the guest is not slotted.</para>
+        /// </summary>
+        public int? HostVolume { get; set; }
     }
 }

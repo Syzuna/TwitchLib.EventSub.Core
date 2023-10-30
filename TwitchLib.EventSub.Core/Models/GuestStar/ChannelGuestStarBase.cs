@@ -33,15 +33,15 @@ namespace TwitchLib.EventSub.Core.Models.GuestStar
         /// <summary>
         /// The user ID of the guest
         /// </summary>
-        public string GuestStarUserId { get; set; } = string.Empty;
+        public string GuestUserId { get; set; } = string.Empty;
         /// <summary>
         /// The guest display name
         /// </summary>
-        public string GuestStarUserName { get; set; } = string.Empty;
+        public string GuestUserName { get; set; } = string.Empty;
         /// <summary>
         /// The guest login
         /// </summary>
-        public string GuestStarUserLogin { get; set; } = string.Empty;
+        public string GuestUserLogin { get; set; } = string.Empty;
         /// <summary>
         /// The ID of the slot assignment the guest is assigned to. null/empty if the guest is in the INVITED state.
         /// <para>or the ID of the slot where settings were updated.</para>
