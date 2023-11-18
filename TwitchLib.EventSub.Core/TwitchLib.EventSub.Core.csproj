@@ -17,7 +17,7 @@
 	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
 	  <Copyright>Copyright 2023</Copyright>
 	  <PackageTags>twitch library events eventsub subscriptiontypes c# csharp net netstandard2.0 netstandard2.1 5.0 6.0 7.0 8.0</PackageTags>
-	  <PackageReleaseNotes>Added .NET 8 build target, removed GuestStarSlotUpdate, updated GuestStarGuestUpdated, Fixed some GuestStar property names, fixed HypeTrainProgress</PackageReleaseNotes>
+	  <PackageReleaseNotes>Added .NET 8 build target, switched to file scoped namespaces, enabled nullable, sealed most classes, added ChannelAdBreakBegin subscription type, added Channel Chat Subscription Types, removed GuestStarSlotUpdate, updated GuestStarGuestUpdated, Fixed some GuestStar property names, fixed HypeTrainProgress</PackageReleaseNotes>
 	  <PackageReadmeFile>README.md</PackageReadmeFile>
 	  <NeutralLanguage>en-US</NeutralLanguage>
 	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
