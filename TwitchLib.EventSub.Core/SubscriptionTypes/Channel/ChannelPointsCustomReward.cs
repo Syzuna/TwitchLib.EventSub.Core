@@ -88,7 +88,7 @@ public sealed class ChannelPointsCustomReward
     /// <summary>
     /// Set of custom images of 1x, 2x and 4x sizes for the reward. Can be null if no images have been uploaded.
     /// </summary>
-    public Dictionary<string, string> Image { get; set; }
+    public Dictionary<string, string>? Image { get; set; }
     /// <summary>
     /// Set of default images of 1x, 2x and 4x sizes for the reward.
     /// </summary>

@@ -16,7 +16,7 @@ public sealed class ChannelCharityCampaignProgress : CharityBase
     /// <summary>
     /// An ID that identifies the charity campaign.
     /// </summary>
-    public string Id { get; set; }
+    public string Id { get; set; } = string.Empty;
     /// <summary>
     /// An object that contains the current amount of donations that the campaign has received.
     /// </summary>

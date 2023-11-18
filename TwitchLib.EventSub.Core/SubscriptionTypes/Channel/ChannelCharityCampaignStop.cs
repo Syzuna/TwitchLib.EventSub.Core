@@ -15,7 +15,7 @@ public sealed class ChannelCharityCampaignStop
     /// <summary>
     /// An ID that identifies the charity campaign.
     /// </summary>
-    public string Id { get; set; }
+    public string Id { get; set; } = string.Empty;
     /// <summary>
     /// An ID that uniquely identifies the broadcaster that’s running the campaign.
     /// </summary>
