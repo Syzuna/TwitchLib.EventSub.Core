@@ -3,7 +3,7 @@
     /// <summary>
     /// Defines a user that predicted in a prediction
     /// </summary>
-    public class Predictor
+    public sealed class Predictor
     {
         /// <summary>
         /// The ID of the user.

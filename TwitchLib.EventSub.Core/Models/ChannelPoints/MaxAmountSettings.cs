@@ -5,7 +5,7 @@
     /// <para>or</para>
     /// <para>Whether a maximum per user per stream is enabled and what the maximum is.</para>
     /// </summary>
-    public class MaxAmountSettings
+    public sealed class MaxAmountSettings
     {
         /// <summary>
         /// Whether the setting is enabled.

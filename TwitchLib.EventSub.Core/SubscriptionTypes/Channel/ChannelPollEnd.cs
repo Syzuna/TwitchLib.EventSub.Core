@@ -8,7 +8,7 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
     /// <para>Description:</para>
     /// <para>A poll ended on a specified channel.</para>
     /// </summary>
-    public class ChannelPollEnd : ChannelPollBase
+    public sealed class ChannelPollEnd : ChannelPollBase
     {
         /// <summary>
         /// The status of the poll. Valid values are completed, archived, and terminated.

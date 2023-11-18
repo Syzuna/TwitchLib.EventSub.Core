@@ -7,7 +7,7 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
     /// <para>Description:</para>
     /// <para>The channel.guest_star_guest.update subscription type sends a notification when a guest moves between interaction states in an active Guest Star session.</para>
     /// </summary>
-    public class ChannelGuestStarGuestUpdate : ChannelGuestStarBase
+    public sealed class ChannelGuestStarGuestUpdate : ChannelGuestStarBase
     {
         /// <summary>
         /// The current state of the user after the update has taken place. Can be one of the following:

@@ -7,6 +7,6 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
     /// <para>Description:</para>
     /// <para>A channel goal progress changes, by either receiving a follow/unfollow or a subscription/unsubscription </para>
     /// </summary>
-    public class ChannelGoalProgress : ChannelGoalBase
+    public sealed class ChannelGoalProgress : ChannelGoalBase
     { }
 }

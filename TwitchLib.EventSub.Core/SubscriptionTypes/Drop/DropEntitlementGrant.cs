@@ -7,7 +7,7 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Drop
     /// <para>Description:</para>
     /// <para>An entitlement for a Drop is granted to a user.</para>
     /// </summary>
-    public class DropEntitlementGrant
+    public sealed class DropEntitlementGrant
     {
         /// <summary>
         /// The ID of the organization that owns the game that has Drops enabled.

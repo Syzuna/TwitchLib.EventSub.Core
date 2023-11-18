@@ -5,7 +5,7 @@
     /// <para>Description:</para>
     /// <para>A broadcaster raids another broadcaster’s channel.</para>
     /// </summary>
-    public class ChannelRaid
+    public sealed class ChannelRaid
     {
         /// <summary>
         /// The broadcaster ID that created the raid.

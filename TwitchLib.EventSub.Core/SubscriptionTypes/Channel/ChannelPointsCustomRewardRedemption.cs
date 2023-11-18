@@ -10,7 +10,7 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
     /// <para>A viewer has redeemed a custom channel points reward on the specified channel.</para>
     /// <para>A redemption of a channel points custom reward has been updated for the specified channel.</para>
     /// </summary>
-    public class ChannelPointsCustomRewardRedemption
+    public sealed class ChannelPointsCustomRewardRedemption
     {
         /// <summary>
         /// The redemption identifier.

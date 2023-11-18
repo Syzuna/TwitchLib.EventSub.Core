@@ -7,6 +7,6 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
     /// <para>Description:</para>
     /// <para>A channel goal is created</para>
     /// </summary>
-    public class ChannelGoalBegin : ChannelGoalBase
+    public sealed class ChannelGoalBegin : ChannelGoalBase
     { }
 }

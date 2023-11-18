@@ -7,7 +7,7 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
     /// <para>Description:</para>
     /// <para>A viewer is banned/timed out from the specified channel.</para>
     /// </summary>
-    public class ChannelBan
+    public sealed class ChannelBan
     {
         /// <summary>
         /// The user ID for the user who was banned/timed out on the specified channel.

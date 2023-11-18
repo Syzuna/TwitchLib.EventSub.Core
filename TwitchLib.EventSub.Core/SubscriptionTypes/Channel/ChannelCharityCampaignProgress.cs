@@ -11,7 +11,7 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
     /// <para>To get that information, subscribe to the Start event or call the Get Charity Campaign endpoint.</para>
     /// <para>To get donation information, subscribe to the channel.charity_campaign.donate event.</para>
     /// </summary>
-    public class ChannelCharityCampaignProgress : CharityBase
+    public sealed class ChannelCharityCampaignProgress : CharityBase
     {
         /// <summary>
         /// An ID that identifies the charity campaign.

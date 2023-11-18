@@ -8,7 +8,7 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
     /// <para>Description:</para>
     /// <para>The channel.guest_star_session.begin subscription type sends a notification when the host begins a new Guest Star session.</para>
     /// </summary>
-    public class ChannelGuestStarSessionBegin : ChannelGuestStarSessionBase
+    public sealed class ChannelGuestStarSessionBegin : ChannelGuestStarSessionBase
     {
         /// <summary>
         /// RFC3339 timestamp indicating the time the session began.

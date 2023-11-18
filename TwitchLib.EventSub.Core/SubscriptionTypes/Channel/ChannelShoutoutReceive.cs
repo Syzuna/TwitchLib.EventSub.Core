@@ -7,7 +7,7 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
     /// <para>Description:</para>
     /// <para>Defines the Shoutout data that you receive when the channel.shoutout.receive event occurs.</para>
     /// </summary>
-    public class ChannelShoutoutReceive : ShoutoutBase
+    public sealed class ChannelShoutoutReceive : ShoutoutBase
     {
         /// <summary>
         /// An ID that identifies the broadcaster that received the Shoutout.

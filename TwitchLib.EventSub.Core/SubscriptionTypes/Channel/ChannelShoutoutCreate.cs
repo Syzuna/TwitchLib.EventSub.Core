@@ -8,7 +8,7 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
     /// <para>Description:</para>
     /// <para>Defines the Shoutout data that you receive when the channel.shoutout.create event occurs.</para>
     /// </summary>
-    public class ChannelShoutoutCreate : ShoutoutBase
+    public sealed class ChannelShoutoutCreate : ShoutoutBase
     {
         /// <summary>
         /// An ID that identifies the moderator that sent the Shoutout.

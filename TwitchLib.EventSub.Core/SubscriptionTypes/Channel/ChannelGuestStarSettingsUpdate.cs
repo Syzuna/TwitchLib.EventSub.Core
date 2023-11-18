@@ -5,7 +5,7 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
     /// <para>Description:</para>
     /// <para>The channel.guest_star_settings.update subscription type sends a notification when the host preferences for Guest Star have been updated.</para>
     /// </summary>
-    public class ChannelGuestStarSettingsUpdate
+    public sealed class ChannelGuestStarSettingsUpdate
     {
         /// <summary>
         /// User ID of the host channel

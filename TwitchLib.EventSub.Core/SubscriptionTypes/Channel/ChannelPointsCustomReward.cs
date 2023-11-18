@@ -10,7 +10,7 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
     /// <para>Description:</para>
     /// <para>A custom channel points reward has been created/updated/removed for the specified channel.</para>
     /// </summary>
-    public class ChannelPointsCustomReward
+    public sealed class ChannelPointsCustomReward
     {
         /// <summary>
         /// The reward identifier.

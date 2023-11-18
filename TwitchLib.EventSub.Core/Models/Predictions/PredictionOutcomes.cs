@@ -5,7 +5,7 @@ namespace TwitchLib.EventSub.Core.Models.Predictions
     /// <summary>
     /// Defines the outcomes of a prediction
     /// </summary>
-    public class PredictionOutcomes
+    public sealed class PredictionOutcomes
     {
         /// <summary>
         /// The outcome ID.

@@ -5,7 +5,7 @@
     /// <para>Description:</para>
     /// <para>Moderator privileges were added to/removed from a user on a specified channel.</para>
     /// </summary>
-    public class ChannelModerator
+    public sealed class ChannelModerator
     {
         /// <summary>
         /// The user ID of the new/removed moderator.

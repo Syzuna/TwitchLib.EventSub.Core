@@ -3,7 +3,7 @@
     /// <summary>
     /// Additional information about a product acquired via a Twitch Extension Bits transaction.
     /// </summary>
-    public class BitsProduct
+    public sealed class BitsProduct
     {
         /// <summary>
         /// Product name.

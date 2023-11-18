@@ -7,7 +7,7 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
     /// <para>Description:</para>
     /// <para>Sends an event notification when a user donates to the broadcaster’s charity campaign.</para>
     /// </summary>
-    public class ChannelCharityCampaignDonate : CharityBase
+    public sealed class ChannelCharityCampaignDonate : CharityBase
     {
         /// <summary>
         /// An ID that uniquely identifies the charity campaign.

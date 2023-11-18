@@ -3,7 +3,7 @@
     /// <summary>
     /// An object that contains the amount of charity related things.
     /// </summary>
-    public class CharityAmount
+    public sealed class CharityAmount
     {
         /// <summary>
         /// The monetary amount. The amount is specified in the currency’s minor unit. For example, the minor units for USD is cents, so if the amount is $5.50 USD, value is set to 550.

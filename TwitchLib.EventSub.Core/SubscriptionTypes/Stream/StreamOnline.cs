@@ -7,7 +7,7 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Stream
     /// <para>Description:</para>
     /// <para>The specified broadcaster starts a stream.</para>
     /// </summary>
-    public class StreamOnline
+    public sealed class StreamOnline
     {
         /// <summary>
         /// The id of the stream.

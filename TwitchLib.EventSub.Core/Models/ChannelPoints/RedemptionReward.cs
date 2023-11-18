@@ -3,7 +3,7 @@
     /// <summary>
     /// Basic information about the reward that was redeemed, at the time it was redeemed.
     /// </summary>
-    public class RedemptionReward
+    public sealed class RedemptionReward
     {
         /// <summary>
         /// The reward identifier.

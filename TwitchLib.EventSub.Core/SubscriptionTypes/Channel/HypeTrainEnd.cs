@@ -8,7 +8,7 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
     /// <para>Description:</para>
     /// <para>A Hype Train ends on the specified channel.</para>
     /// </summary>
-    public class HypeTrainEnd : HypeTrainBase
+    public sealed class HypeTrainEnd : HypeTrainBase
     {
         /// <summary>
         /// The time when the Hype Train cooldown ends so that the next Hype Train can start.

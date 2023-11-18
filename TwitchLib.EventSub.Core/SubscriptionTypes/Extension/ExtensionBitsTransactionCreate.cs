@@ -7,7 +7,7 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Extension
     /// <para>Description:</para>
     /// <para>A Bits transaction occurred for a specified Twitch Extension.</para>
     /// </summary>
-    public class ExtensionBitsTransactionCreate
+    public sealed class ExtensionBitsTransactionCreate
     {
         /// <summary>
         /// Transaction ID.

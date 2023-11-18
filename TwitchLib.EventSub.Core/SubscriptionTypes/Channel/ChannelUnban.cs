@@ -5,7 +5,7 @@
     /// <para>Description:</para>
     /// <para>A viewer is unbanned from the specified channel.</para>
     /// </summary>
-    public class ChannelUnban
+    public sealed class ChannelUnban
     {
         /// <summary>
         /// The user id for the user who was unbanned on the specified channel.

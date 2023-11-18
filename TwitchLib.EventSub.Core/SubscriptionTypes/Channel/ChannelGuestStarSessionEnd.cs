@@ -8,7 +8,7 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
     /// <para>Description:</para>
     /// <para>The channel.guest_star_session.end subscription type sends a notification when a running Guest Star session is ended by the host, or automatically by the system.</para>
     /// </summary>
-    public class ChannelGuestStarSessionEnd : ChannelGuestStarSessionBase
+    public sealed class ChannelGuestStarSessionEnd : ChannelGuestStarSessionBase
     {
         /// <summary>
         /// RFC3339 timestamp indicating the time the session began.

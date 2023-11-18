@@ -3,7 +3,7 @@
     /// <summary>
     /// Defines Emotes and their positions in a resubscription chat message
     /// </summary>
-    public class SubscriptionMessageEmote
+    public sealed class SubscriptionMessageEmote
     {
         /// <summary>
         /// The index of where the Emote starts in the text.

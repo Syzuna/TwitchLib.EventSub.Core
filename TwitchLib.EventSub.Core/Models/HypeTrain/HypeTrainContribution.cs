@@ -3,7 +3,7 @@
     /// <summary>
     /// Describes a user's contribution to a HypeTrain
     /// </summary>
-    public class HypeTrainContribution
+    public sealed class HypeTrainContribution
     {
         /// <summary>
         /// The ID of the contributor.

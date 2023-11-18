@@ -3,7 +3,7 @@
     /// <summary>
     /// Whether Bits/ChannelPoints voting is enabled and its cost
     /// </summary>
-    public class PollVotingSettings
+    public sealed class PollVotingSettings
     {
         /// <summary>
         /// Indicates if Bits/Channel Points can be used for voting.

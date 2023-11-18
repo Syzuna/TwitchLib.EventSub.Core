@@ -7,7 +7,7 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
     /// <para>Description:</para>
     /// <para>a User runs a midroll commercial break, either manually or automatically via ads manager.</para>
     /// </summary>
-    public class ChannelAdBreakBegin
+    public sealed class ChannelAdBreakBegin
     {
         /// <summary>
         /// Length in seconds of the mid-roll ad break requested

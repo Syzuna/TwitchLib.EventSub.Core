@@ -3,7 +3,7 @@
     /// <summary>
     /// Defines a poll choice
     /// </summary>
-    public class PollChoice
+    public sealed class PollChoice
     {
         /// <summary>
         /// ID for the choice.

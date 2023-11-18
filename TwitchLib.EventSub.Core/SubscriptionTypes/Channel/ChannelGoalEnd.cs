@@ -8,7 +8,7 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
     /// <para>Description:</para>
     /// <para>A channel goal ends</para>
     /// </summary>
-    public class ChannelGoalEnd : ChannelGoalBase
+    public sealed class ChannelGoalEnd : ChannelGoalBase
     {
         /// <summary>
         /// The UTC timestamp in RFC 3339 format, which indicates when the broadcaster ended the goal.

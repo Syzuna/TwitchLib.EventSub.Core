@@ -5,7 +5,7 @@
     /// <para>Description:</para>
     /// <para>A notification when a viewer gives a gift subscription to one or more users in the specified channel.</para>
     /// </summary>
-    public class ChannelSubscriptionGift
+    public sealed class ChannelSubscriptionGift
     {
         /// <summary>
         /// The user ID of the user who sent the subscription gift. Set to null if it was an anonymous subscription gift.

@@ -5,7 +5,7 @@
     /// <para>Description:</para>
     /// <para>A user has updated their account.</para>
     /// </summary>
-    public class UserUpdate
+    public sealed class UserUpdate
     {
         /// <summary>
         /// The user’s user id.

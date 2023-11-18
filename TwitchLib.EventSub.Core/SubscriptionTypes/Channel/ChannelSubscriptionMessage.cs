@@ -7,7 +7,7 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
     /// <para>Description:</para>
     /// <para>A notification when a user sends a resubscription chat message in a specific channel.</para>
     /// </summary>
-    public class ChannelSubscriptionMessage
+    public sealed class ChannelSubscriptionMessage
     {
         /// <summary>
         /// The user ID of the user who sent a resubscription chat message.

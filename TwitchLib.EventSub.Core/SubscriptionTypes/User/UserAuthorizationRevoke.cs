@@ -5,7 +5,7 @@
     /// <para>Description:</para>
     /// <para>A user’s authorization has been revoked for your client id.</para>
     /// </summary>
-    public class UserAuthorizationRevoke
+    public sealed class UserAuthorizationRevoke
     {
         /// <summary>
         /// The client_id of the application with revoked user access.

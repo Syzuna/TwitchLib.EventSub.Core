@@ -5,7 +5,7 @@
     /// <para>Description:</para>
     /// <para>A broadcaster updates their channel properties e.g., category, title, mature flag, broadcast, or language.</para>
     /// </summary>
-    public class ChannelUpdate
+    public sealed class ChannelUpdate
     {
         /// <summary>
         /// The broadcaster’s user ID.

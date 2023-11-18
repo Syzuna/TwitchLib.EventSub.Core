@@ -8,7 +8,7 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
     /// <para>Description:</para>
     /// <para>A poll started on a specified channel.</para>
     /// </summary>
-    public class ChannelPollBegin : ChannelPollBase
+    public sealed class ChannelPollBegin : ChannelPollBase
     {
         /// <summary>
         /// The time the poll will end.

@@ -10,7 +10,7 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
     /// <para>The event data does not include information about the charity such as its name, description, and logo.</para>
     /// <para>To get that information, subscribe to the Start event or call the Get Charity Campaign endpoint.</para>
     /// </summary>
-    public class ChannelCharityCampaignStop
+    public sealed class ChannelCharityCampaignStop
     {
         /// <summary>
         /// An ID that identifies the charity campaign.

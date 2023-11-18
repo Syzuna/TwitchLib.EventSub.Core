@@ -8,7 +8,7 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
     /// <para>Description:</para>
     /// <para>A Hype Train begins on the specified channel.</para>
     /// </summary>
-    public class HypeTrainBegin : HypeTrainBase
+    public sealed class HypeTrainBegin : HypeTrainBase
     {
         /// <summary>
         /// The number of points contributed to the Hype Train at the current level.

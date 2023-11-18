@@ -7,7 +7,7 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
     /// <para>Description:</para>
     /// <para>A specified channel receives a follow.</para>
     /// </summary>
-    public class ChannelFollow
+    public sealed class ChannelFollow
     {
         /// <summary>
         /// The user ID for the user now following the specified channel.

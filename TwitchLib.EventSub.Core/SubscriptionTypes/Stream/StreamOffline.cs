@@ -5,7 +5,7 @@
     /// <para>Description:</para>
     /// <para>The specified broadcaster stops a stream.</para>
     /// </summary>
-    public class StreamOffline
+    public sealed class StreamOffline
     {
         /// <summary>
         /// The broadcaster's user id.

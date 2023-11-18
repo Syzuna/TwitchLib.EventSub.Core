@@ -5,7 +5,7 @@
     /// <para>Description:</para>
     /// <para>A user cheers on the specified channel.</para>
     /// </summary>
-    public class ChannelCheer
+    public sealed class ChannelCheer
     {
         /// <summary>
         /// Whether the user cheered anonymously or not.

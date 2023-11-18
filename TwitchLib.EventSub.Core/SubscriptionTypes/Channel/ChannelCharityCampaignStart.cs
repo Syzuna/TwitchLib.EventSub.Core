@@ -9,7 +9,7 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
     /// <para>Sends a notification when the broadcaster starts a charity campaign.</para>
     /// <para>It’s possible to receive this event after the Progress event.</para>
     /// </summary>
-    public class ChannelCharityCampaignStart : CharityBase
+    public sealed class ChannelCharityCampaignStart : CharityBase
     {
         /// <summary>
         /// An ID that identifies the charity campaign.

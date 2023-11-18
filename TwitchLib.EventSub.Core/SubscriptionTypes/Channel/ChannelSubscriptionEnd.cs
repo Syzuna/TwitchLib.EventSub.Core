@@ -5,7 +5,7 @@
     /// <para>Description:</para>
     /// <para>A notification when a subscription to the specified channel ends.</para>
     /// </summary>
-    public class ChannelSubscriptionEnd
+    public sealed class ChannelSubscriptionEnd
     {
         /// <summary>
         /// The user ID for the user whose subscription ended.

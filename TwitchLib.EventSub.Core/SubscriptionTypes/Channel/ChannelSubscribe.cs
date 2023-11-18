@@ -5,7 +5,7 @@
     /// <para>Description:</para>
     /// <para>A notification when a specified channel receives a subscriber. This does not include resubscribes.</para>
     /// </summary>
-    public class ChannelSubscribe
+    public sealed class ChannelSubscribe
     {
         /// <summary>
         /// The user ID for the user who subscribed to the specified channel.

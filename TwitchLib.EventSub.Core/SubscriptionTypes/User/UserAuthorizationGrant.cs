@@ -5,7 +5,7 @@
     /// <para>Description:</para>
     /// <para>A user’s authorization has been granted to your client id.</para>
     /// </summary>
-    public class UserAuthorizationGrant
+    public sealed class UserAuthorizationGrant
     {
         /// <summary>
         /// The client_id of the application that was granted user access.

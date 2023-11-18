@@ -3,7 +3,7 @@
     /// <summary>
     /// Whether a cooldown is enabled and what the cooldown is in seconds.
     /// </summary>
-    public class GlobalCooldownSettings
+    public sealed class GlobalCooldownSettings
     {
         /// <summary>
         /// Whether the setting is enabled.

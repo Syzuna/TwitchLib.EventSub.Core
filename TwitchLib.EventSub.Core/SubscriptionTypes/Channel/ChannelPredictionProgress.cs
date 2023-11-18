@@ -8,7 +8,7 @@ namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel
     /// <para>Description:</para>
     /// <para>Users participated in a Prediction on a specified channel.</para>
     /// </summary>
-    public class ChannelPredictionProgress : ChannelPredictionBase
+    public sealed class ChannelPredictionProgress : ChannelPredictionBase
     {
         /// <summary>
         /// The time the Channel Points Prediction will automatically lock.
