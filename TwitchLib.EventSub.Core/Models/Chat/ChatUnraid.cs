@@ -1,7 +1,6 @@
-﻿namespace TwitchLib.EventSub.Core.Models.Chat
+﻿namespace TwitchLib.EventSub.Core.Models.Chat;
+
+public sealed class ChatUnraid
 {
-    public sealed class ChatUnraid
-    {
         
-    }
 }
