@@ -44,5 +44,5 @@ public sealed class ExtensionBitsTransactionCreate
     /// <summary>
     /// Additional extension product information.
     /// </summary>
-    public BitsProduct Product { get; set; } = new BitsProduct();
+    public BitsProduct Product { get; set; } = new();
 }

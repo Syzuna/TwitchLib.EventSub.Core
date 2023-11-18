@@ -22,11 +22,11 @@ public sealed class ChannelCharityCampaignStart : CharityBase
     /// <summary>
     /// An object that contains the current amount of donations that the campaign has received.
     /// </summary>
-    public CharityAmount CurrentAmount { get; set; } = new CharityAmount();
+    public CharityAmount CurrentAmount { get; set; } = new();
     /// <summary>
     /// An object that contains the campaign’s target fundraising goal.
     /// </summary>
-    public CharityAmount TargetAmount { get; set; } = new CharityAmount();
+    public CharityAmount TargetAmount { get; set; } = new();
     /// <summary>
     /// The UTC timestamp (in RFC3339 format) of when the broadcaster started the campaign.
     /// </summary>

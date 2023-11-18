@@ -12,5 +12,5 @@ public sealed class ChatCharityDonation
     /// </summary>
     public string Name { get; set; } = string.Empty;
 
-    public CharityAmount Amount { get; set; } = new CharityAmount();
+    public CharityAmount Amount { get; set; } = new();
 }

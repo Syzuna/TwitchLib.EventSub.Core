@@ -29,7 +29,7 @@ public sealed class ChannelCharityCampaignDonate : CharityBase
     /// <summary>
     /// An object that contains the amount of the user’s donation.
     /// </summary>
-    public CharityAmount Amount { get; set; } = new CharityAmount();
+    public CharityAmount Amount { get; set; } = new();
 
     /// <summary>
     /// The ISO-4217 three-letter currency code that identifies the type of currency in value.

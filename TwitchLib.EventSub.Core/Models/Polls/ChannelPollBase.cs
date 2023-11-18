@@ -34,11 +34,11 @@ public class ChannelPollBase
     /// <summary>
     /// The Bits voting settings for the poll.
     /// </summary>
-    public PollVotingSettings BitsVoting { get; set; } = new PollVotingSettings();
+    public PollVotingSettings BitsVoting { get; set; } = new();
     /// <summary>
     /// The Channel Points voting settings for the poll.
     /// </summary>
-    public PollVotingSettings ChannelPointsVoting { get; set; } = new PollVotingSettings();
+    public PollVotingSettings ChannelPointsVoting { get; set; } = new();
     /// <summary>
     /// The time the poll started.
     /// </summary>

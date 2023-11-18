@@ -72,15 +72,15 @@ public sealed class ChannelPointsCustomReward
     /// <summary>
     /// Whether a maximum per stream is enabled and what the maximum is.
     /// </summary>
-    public MaxAmountSettings MaxPerStream { get; set; } = new MaxAmountSettings();
+    public MaxAmountSettings MaxPerStream { get; set; } = new();
     /// <summary>
     /// Whether a maximum per user per stream is enabled and what the maximum is.
     /// </summary>
-    public MaxAmountSettings MaxPerUserPerStream { get; set; } = new MaxAmountSettings();
+    public MaxAmountSettings MaxPerUserPerStream { get; set; } = new();
     /// <summary>
     /// Whether a cooldown is enabled and what the cooldown is in seconds.
     /// </summary>
-    public GlobalCooldownSettings GlobalCooldown { get; set; } = new GlobalCooldownSettings();
+    public GlobalCooldownSettings GlobalCooldown { get; set; } = new();
     /// <summary>
     /// Custom background color for the reward. Format: Hex with # prefix. Example: #FA1ED2.
     /// </summary>
@@ -92,5 +92,5 @@ public sealed class ChannelPointsCustomReward
     /// <summary>
     /// Set of default images of 1x, 2x and 4x sizes for the reward.
     /// </summary>
-    public Dictionary<string, string> DefaultImage { get; set; } = new Dictionary<string, string>();
+    public Dictionary<string, string> DefaultImage { get; set; } = new();
 }

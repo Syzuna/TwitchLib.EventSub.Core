@@ -51,7 +51,7 @@ public sealed class ChannelPointsCustomRewardRedemption
     /// <summary>
     /// Basic information about the reward that was redeemed, at the time it was redeemed.
     /// </summary>
-    public RedemptionReward Reward { get; set; } = new RedemptionReward();
+    public RedemptionReward Reward { get; set; } = new();
     /// <summary>
     /// RFC3339 timestamp of when the reward was redeemed.
     /// </summary>
