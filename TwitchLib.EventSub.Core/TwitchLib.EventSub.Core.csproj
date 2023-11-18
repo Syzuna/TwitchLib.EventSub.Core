@@ -1,14 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-	  <TargetFrameworks>netstandard2.0;netstandard2.1;net5.0;net6.0;net7.0</TargetFrameworks>
+	  <TargetFrameworks>netstandard2.0;netstandard2.1;net5.0;net6.0;net7.0;net8.0</TargetFrameworks>
 	  <PackageId>TwitchLib.EventSub.Core</PackageId>
 	  <Title>TwitchLib.EventSub.Core</Title>
 	  <Authors>swiftyspiffy, Prom3theu5, Syzuna, LuckyNoS7evin</Authors>
-	  <VersionPrefix>2.4.3</VersionPrefix>
+	  <VersionPrefix>2.5.0</VersionPrefix>
 	  <VersionSuffix>$(VersionSuffix)</VersionSuffix>
-	  <AssemblyVersion>2.4.3</AssemblyVersion>
-	  <FileVersion>2.4.3</FileVersion>
+	  <AssemblyVersion>2.5.0</AssemblyVersion>
+	  <FileVersion>2.5.0</FileVersion>
 	  <Description>Contains Subscription Types and Models for Twitch's EventSub system</Description>
 	  <PackageIconUrl>https://cdn.syzuna-programs.de/images/twitchlib.png</PackageIconUrl>
 	  <PackageProjectUrl>https://github.com/TwitchLib/TwitchLib.EventSub.Websockets</PackageProjectUrl>
@@ -16,17 +16,23 @@
 	  <RepositoryType>Git</RepositoryType>
 	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
 	  <Copyright>Copyright 2023</Copyright>
-	  <PackageTags>twitch library events eventsub subscriptiontypes c# csharp net netstandard2.0 netstandard2.1 5.0 6.0 7.0</PackageTags>
-	  <PackageReleaseNotes>Added GuestStar Subscription Types, added AsyncEventHandler delegate</PackageReleaseNotes>
+	  <PackageTags>twitch library events eventsub subscriptiontypes c# csharp net netstandard2.0 netstandard2.1 5.0 6.0 7.0 8.0</PackageTags>
+	  <PackageReleaseNotes>Added .NET 8 build target, switched to file scoped namespaces, enabled nullable, sealed most classes, added ChannelAdBreakBegin subscription type, added Channel Chat Subscription Types, removed GuestStarSlotUpdate, updated GuestStarGuestUpdated, Fixed some GuestStar property names, fixed HypeTrainProgress</PackageReleaseNotes>
 	  <PackageReadmeFile>README.md</PackageReadmeFile>
 	  <NeutralLanguage>en-US</NeutralLanguage>
 	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
 	  <AnalysisLevel>latest-all</AnalysisLevel>
 	  <EnableNETAnalyzers>True</EnableNETAnalyzers>
+	  <LangVersion>latest</LangVersion>
+	  <Nullable>enable</Nullable>
   </PropertyGroup>
 	 
   <ItemGroup>
 	  <None Include="..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+	 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETCore.Platforms" Version="7.0.4" />
   </ItemGroup>
 
 </Project>
