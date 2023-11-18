@@ -15,5 +15,10 @@
         /// <para>value / 10^decimal_places</para>
         /// </summary>
         public int DecimalPlaces { get; set; }
+
+        /// <summary>
+        /// The ISO-4217 three-letter currency code that identifies the type of currency in value.
+        /// </summary>
+        public string Currency { get; set; } = string.Empty;
     }
 }

@@ -23,6 +23,8 @@
 	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
 	  <AnalysisLevel>latest-all</AnalysisLevel>
 	  <EnableNETAnalyzers>True</EnableNETAnalyzers>
+	  <LangVersion>latest</LangVersion>
+	  <Nullable>enable</Nullable>
   </PropertyGroup>
 	 
   <ItemGroup>
