@@ -6,6 +6,18 @@
 public sealed class ChatPayItForward
 {
     /// <summary>
+    /// Optional. The user ID of the user who received the subscription. Null if not available at the time of event trigger.
+    /// </summary>
+    public string? RecipientUserId { get; set; }
+    /// <summary>
+    /// Optional. The user name of the user who received the subscription. Null if not available at the time of event trigger.
+    /// </summary>
+    public string? RecipientUserName { get; set; }
+    /// <summary>
+    /// Optional. The user login of the user who received the subscription. Null if not available at the time of event trigger.
+    /// </summary>
+    public string? RecipientUserLogin { get; set; }
+    /// <summary>
     /// Whether the gift was given anonymously.
     /// </summary>
     public bool GifterIsAnonymous { get; set; }
