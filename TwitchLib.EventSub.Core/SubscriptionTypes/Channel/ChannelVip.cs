@@ -5,7 +5,7 @@
 /// <para>Description:</para>
 /// <para>VIP was added to/removed from a user on a specified channel.</para>
 /// </summary>
-public sealed class ChannelVIP
+public sealed class ChannelVip
 {
     /// <summary>
     /// The user ID of the new/removed moderator.
