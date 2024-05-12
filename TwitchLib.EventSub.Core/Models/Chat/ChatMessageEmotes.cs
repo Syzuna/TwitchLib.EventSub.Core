@@ -11,7 +11,6 @@ public sealed class ChatMessageEmotes
     /// The text of the chat message.
     /// </summary>
     public string Text { get; set; } = string.Empty;
-
     /// <summary>
     /// An array that includes the emote ID and start and end positions for where the emote appears in the text.
     /// </summary>

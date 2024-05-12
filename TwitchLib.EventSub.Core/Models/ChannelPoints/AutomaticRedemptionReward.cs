@@ -5,7 +5,6 @@
 /// </summary>
 public sealed class AutomaticRedemptionReward
 {
-
     /// <summary>
     /// The type of reward. One of:
     /// ssingle_message_bypass_sub_mode
