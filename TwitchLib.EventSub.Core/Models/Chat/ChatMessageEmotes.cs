@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace TwitchLib.EventSub.Core.Models.Chat;
+﻿namespace TwitchLib.EventSub.Core.Models.Chat;
 
 /// <summary>
 /// Represents a chat message with emotes fragments
