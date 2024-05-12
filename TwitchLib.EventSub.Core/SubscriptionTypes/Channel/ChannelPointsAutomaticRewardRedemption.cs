@@ -1,7 +1,9 @@
 ﻿using System;
 using TwitchLib.EventSub.Core.Models.ChannelPoints;
 using TwitchLib.EventSub.Core.Models.Chat;
+
 namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel;
+
 /// <summary>
 /// Channel Points Automatic Reward Redemption subscription type model
 /// <para>!! The same for all channel points redemption subscription types !!</para>

@@ -1,4 +1,5 @@
 ﻿namespace TwitchLib.EventSub.Core.Models.ChannelPoints;
+
 /// <summary>
 /// Basic information about the reward that was automatically redeemed, at the time it was redeemed.
 /// </summary>
@@ -18,9 +19,8 @@ public sealed class AutomaticRedemptionReward
     /// The reward cost.
     /// </summary>
     public int Cost { get; set; }
-
     /// <summary>
     /// Optional. Emote that was unlocked.
     /// </summary>
-    public UnlockedEmote? UnlockedEmote { get; set; } = new();
+    public UnlockedEmote? UnlockedEmote { get; set; }
 }

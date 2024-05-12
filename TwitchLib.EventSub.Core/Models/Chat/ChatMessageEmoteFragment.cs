@@ -1,4 +1,5 @@
 ﻿namespace TwitchLib.EventSub.Core.Models.Chat;
+
 /// <summary>
 /// A Fragment of a emote that holds additional information
 /// </summary>
