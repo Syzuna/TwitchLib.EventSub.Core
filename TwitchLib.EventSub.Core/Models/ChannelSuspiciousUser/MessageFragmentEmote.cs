@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel;
+namespace TwitchLib.EventSub.Core.Models.ChannelSuspiciousUser;
 
 public sealed class FragmentEmote
 {
