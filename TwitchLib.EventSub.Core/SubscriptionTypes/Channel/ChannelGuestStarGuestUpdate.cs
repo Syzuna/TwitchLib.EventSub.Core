@@ -43,4 +43,16 @@ public sealed class ChannelGuestStarGuestUpdate : ChannelGuestStarBase
     /// <para>null if the guest is not slotted.</para>
     /// </summary>
     public int? HostVolume { get; set; }
+    /// <summary>
+    /// The host user ID
+    /// </summary>
+    public string HostUserId { get; set; } = string.Empty;
+    /// <summary>
+    /// The host display name
+    /// </summary>
+    public string HostUserName { get; set; } = string.Empty;
+    /// <summary>
+    /// The host login
+    /// </summary>
+    public string HostUserLogin { get; set; } = string.Empty;
 }
