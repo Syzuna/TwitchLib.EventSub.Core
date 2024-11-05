@@ -1,9 +1,9 @@
 ﻿namespace TwitchLib.EventSub.Core.SubscriptionTypes.Channel;
 
 /// <summary>
-/// Channel Warning Acknowledge subscription type model
+/// Channel Warning Send subscription type model
 /// <para>Description:</para>
-/// <para>A user awknowledges a warning. Broadcasters and moderators can see the warning’s details.</para>
+/// <para>A user is sent a warning. Broadcasters and moderators can see the warning’s details.</para>
 /// </summary>
 public sealed class ChannelWarningSend
 {
