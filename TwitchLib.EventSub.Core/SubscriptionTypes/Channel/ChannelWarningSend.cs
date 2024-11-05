@@ -14,11 +14,11 @@ public sealed class ChannelWarningSend
     /// <summary>
     /// The login of the broadcaster.
     /// </summary>
-    public string BroadcasterUserName { get; set; } = string.Empty;
+    public string BroadcasterUserLogin { get; set; } = string.Empty;
     /// <summary>
     /// The user name of the broadcaster.
     /// </summary>
-    public string BroadcasterUserLogin { get; set; } = string.Empty;
+    public string BroadcasterUserName { get; set; } = string.Empty;
     /// <summary>
     /// The user ID of the moderator who sent the warning.
     /// </summary>

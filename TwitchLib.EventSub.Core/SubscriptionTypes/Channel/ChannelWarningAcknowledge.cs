@@ -14,11 +14,11 @@ public sealed class ChannelWarningAcknowledge
     /// <summary>
     /// The login of the broadcaster.
     /// </summary>
-    public string BroadcasterUserName { get; set; } = string.Empty;
+    public string BroadcasterUserLogin { get; set; } = string.Empty;
     /// <summary>
     /// The user name of the broadcaster.
     /// </summary>
-    public string BroadcasterUserLogin { get; set; } = string.Empty;
+    public string BroadcasterUserName { get; set; } = string.Empty;
     /// <summary>
     /// The ID of the user that has acknowledged their warning.
     /// </summary>
