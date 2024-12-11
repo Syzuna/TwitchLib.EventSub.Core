@@ -132,31 +132,31 @@ public sealed class ChannelChatNotification
     /// Information about the bits badge tier event. Null if notice_type is not bits_badge_tier.
     /// </summary>
     public ChannelBitsBadgeTier? BitsBadgeTier { get; set; }
-    
+
     /// <summary>
     /// Optional. The broadcaster user ID of the channel the message was sent from.
     /// </summary>
-    public string SourceBroadcasterUserId { get; set; } = string.Empty;
+    public string? SourceBroadcasterUserId { get; set; }
 
     /// <summary>
     /// Optional. The user name of the broadcaster of the channel the message was sent from.
     /// </summary>
-    public string SourceBroadcasterUserName {  get; set; } = string.Empty;
+    public string? SourceBroadcasterUserName {  get; set; }
 
     /// <summary>
     /// Optional. The login of the broadcaster of the channel the message was sent from. 
     /// </summary>
-    public string SourceBroadcasterUserLogin {  get; set; } = string.Empty;
+    public string? SourceBroadcasterUserLogin {  get; set; }
 
     /// <summary>
     /// Optional. The UUID that identifies the source message from the channel the message was sent from.
     /// </summary>
-    public string SourceMessageId {  get; set; } = string.Empty;
+    public string? SourceMessageId {  get; set; }
 
     /// <summary>
     /// Optional. The list of chat badges for the chatter in the channel the message was sent from. 
     /// </summary>
-    public ChatBadge[] SourceBadges { get; set; } = [];
+    public ChatBadge[]? SourceBadges { get; set; }
     
     /// <summary>
     /// Information about the sub event. Null if notice_type is not shared_chat_sub.
